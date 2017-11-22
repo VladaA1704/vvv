@@ -1,0 +1,68 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="index.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<header>Simple site</header>
+	<div id="main"> 
+		<article>
+			<div>
+				<label for="first_value">First value:
+				</label>
+				<input id="first_value"/>
+			</div>
+			<div>
+				<label for="Second_value">Second value:
+				</label>
+				<input id="Second_value"/>
+			</div>
+                    <span id="result">
+                        
+                    </span>
+		</article>
+		<nav>
+			
+                    <a
+			href="#"
+			onclick="addition(document.getElementById('first_value').value,document.getElementById('Second_value').value)"
+			>Сложение
+                        
+                        </a>
+                    <a
+			href="#"
+			onclick="subtraction(document.getElementById('first_value').value,document.getElementById('Second_value').value)"
+			>Вычитание
+                        
+                        
+                        </a>
+                    <a
+			href="#"
+			onclick="multiplication(document.getElementById('first_value').value,document.getElementById('Second_value').value)"
+			>Умножение
+                        
+                        
+                        </a>
+			
+			<a
+			href="#"
+			onclick="division(document.getElementById('first_value').value,document.getElementById('Second_value').value)"
+			>Деление
+                        
+                        
+                        </a>
+		</nav>
+		<aside>
+			aside
+		</aside>
+	</div>
+	<footer>
+		<script src="index.js" type="text/javascript">
+
+		</script>
+		
+                
+	</body>
+
+	</html>
+
